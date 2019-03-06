@@ -1,15 +1,9 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
-<suite name="FirstTestSuite" verbose="1">
-	<test name="PositiveTest">
+<suite name="ExceptionsTestSuite" verbose="1">
+	<test name="ExceptionsTest">
 		<classes>
 			<class name="com.herokuapp.theinternet.PositiveTests" />
-		</classes>
-	</test>
-
-	<test name="NegativeTest">
-		<classes>
-			<class name="com.herokuapp.theinternet.NegativeTests" />
 		</classes>
 	</test>
 </suite>
